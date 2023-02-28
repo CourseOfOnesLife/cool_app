@@ -8,7 +8,7 @@ function Aside() {
 
       <div className=" h-full w-full">
         <div className="flex flex-row justify-between space-x-4">
-        {/* input */}
+
         <div className="flex flex-row justify-between items-center w-full ">
           <div className="w-6 absolute p-3">
             <Search />
