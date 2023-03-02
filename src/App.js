@@ -6,7 +6,7 @@ import Aside from "./components/Aside";
 
 function App() {
   return (
-    <div className="grid grid-rows-16 grid-cols-16 h-screen w-screen">
+    <div className="grid grid-rows-16 grid-cols-16 h-screen w-screen dark">
 
       <Navbar/>
       <Content/>
