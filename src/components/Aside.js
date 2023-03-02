@@ -1,6 +1,7 @@
 import Profile from "./aside/Profile";
 import Poll from "./aside/PollSection";
 import SearchBar from "./aside/SearchBar"
+import Notification from "./aside/Notification";
 
 
 
@@ -12,6 +13,8 @@ function Aside() {
         <SearchBar />
         <Profile />
         <Poll />
+        <Notification />
+
       </div>
     </div>
   );
