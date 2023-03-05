@@ -15,9 +15,9 @@ function Profile() {
            <div className="flex pl-4 justify-start flex-col w-full space-y-2">
              {/* Profile Name */}
              <div className="flex flex-row items-center">
-               <div className="font-medium text-xl">Selam, Tayfun!</div>
+               <div className="font-medium text-xl">Selam, Mert!</div>
 
-               <div className="pl-28">
+               <div className="pl-32">
                  <Arrow />
                </div>
 
