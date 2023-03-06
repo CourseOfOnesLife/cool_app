@@ -74,12 +74,12 @@ function Notification() {
             {Notifications.map((notification) => (
                 <div key={notification.id}>
                     <div className="w-full h-0.5 bg-[#DFDCDC]" />
-                    <div className=" py-1  w-full flex space-x-6 items-center">
-                        <div className="pl-4">
+                    <div className=" py-1  w-full flex space-x-[1vw] justify-center items-center">
+                        <div className="pl-4 w-[5vw] h-auto">
                             {notification.icon}
                         </div>
                         <div className="w-full pt-2 pr-4 pb-1">
-                            <div className="text-[0.9rem] text-start leading-tight h-14">
+                            <div className="text-[0.8vw] text-start leading-tight h-14">
                                 {/* Burada bildirimin content tipine göre filtreleme yaptıktan sonra gereken yerlerden veri çekme işlemi gerçekleşiyor */}
 
 
