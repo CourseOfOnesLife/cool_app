@@ -12,7 +12,7 @@ const examsContent = () => {
                     Front-end <br />Geliştirici-<br />Tailwind ve Diğerleri
                 </div>
                 <div className="bg-[#E8E8E8] h-full w-full rounded-2xl flex pl-4 pt-3 items-start max-lg:text-[1.4vw] max-xl:text-[1.3vw] text-[1vw] text-start font-semibold text-[#582270] ">
-                    VSCode nasıl kullanılır?
+                    VSCode nasıl <br/>kullanılır?
                 </div>
                 <div className="bg-[#582270] h-full w-full rounded-2xl flex pl-4 pt-3 items-start max-lg:text-[1.4vw] max-xl:text-[1.3vw] text-[1vw] text-start font-semibold text-[#E8E8E8] ">
                     Git ve <br/> Github

@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="bg-[#F8F3EB] max-xl:w-screen  col-start-1 col-end-13 row-start-1 row-end-3 flex flex-row justify-between items-center px-12">
+        <div className="bg-[#F8F3EB] max-xl:w-screen  col-start-1 col-end-13 row-start-1 row-end-3 flex flex-row justify-between items-center px-12">
 
             {/* Logo */}
             <div className="max-xl:hidden w-12">
@@ -100,7 +100,7 @@ const Navbar = () => {
 
 
             </div>
-        </nav>
+        </div>
     );
 };
 
