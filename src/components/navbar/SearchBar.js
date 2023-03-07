@@ -16,9 +16,9 @@ function SearchBar() {
 
 
     return (
-        <div className="max-xl:hidden col-start-13 col-end-17 w-full row-start-1 row-end-17 bg-[#F8F3EB] pr-10 flex flex-row  items-center justify-between space-x-3">
+        <div className="flex flex-row space-x-3 w-full pr-10">
             {/* Search Bar */}
-            <div className="flex flex-row justify-between items-center w-full ">
+            <div className="flex flex-row justify-between items-center w-full max-xl:w-[33vw]">
                 <div className="w-6 absolute p-3">
                     <Search />
                 </div>
@@ -29,7 +29,7 @@ function SearchBar() {
                 />
             </div>
             {/* Dark/Light mode Button */}
-            <div id="lightButton" className="transition-all px-3 w-fit h-12 border-2 flex justify-center items-center dark  bg-white  border-[#DFDCDC] pt-1 rounded-2xl" onClick={changeButton}>
+            <div id="lightButton" className="max-xl:hidden transition-all px-3 w-fit h-12 border-2 flex justify-center items-center dark  bg-white  border-[#DFDCDC] pt-1 rounded-2xl" onClick={changeButton}>
                 <DropDown />
             </div>
         </div>

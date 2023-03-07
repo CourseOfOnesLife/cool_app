@@ -1,7 +1,14 @@
-{
-    "id": "1",
-    "title": "EyeNotification",
-    
-    "type": "object",
-
-}
+[
+  {
+    "syntax": "ileri-seviye-css-1",
+    "id": 1,
+    "icon": "<ExamNotification />",
+    "content": "exam"
+  },
+  {
+    "syntax": "profile-view-count",
+    "id": 2,
+    "icon": "<EyeNotification />",
+    "content": "view"
+  }
+]

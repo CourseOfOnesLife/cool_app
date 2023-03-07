@@ -15,12 +15,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-  <BrowserRouter>
-   <Routes>
+    <BrowserRouter>
+    <Navbar />
+      <Routes>
+
         <Route path="/" exact element={<Home />}></Route>
         <Route path="/profile" element={<Profile />}></Route>
         <Route path="/exams" element={<Exams />}></Route>
-    </Routes>
-  </BrowserRouter>
+      </Routes>
+    </BrowserRouter>
   </div>
 );
