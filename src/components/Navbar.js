@@ -1,10 +1,10 @@
-import  SearchBar from './navbar/SearchBar'
+
 
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import { ReactComponent as SmLogo } from "../assets/smallScreenLogo.svg";
 
 
-
+import  SearchBar from './navbar/SearchBar'
 import SmallLinks from './navbar/SmallLinks';
 import Links from './navbar/Links';
 
