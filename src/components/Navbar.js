@@ -3,6 +3,8 @@
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import { ReactComponent as SmLogo } from "../assets/smallScreenLogo.svg";
 
+import { Link } from "react-router-dom";
+
 
 import SearchBar from './navbar/SearchBar'
 import SmallLinks from './navbar/SmallLinks';
@@ -19,14 +21,14 @@ const Navbar = () => {
             <div className="bg-[#F8F3EB] max-xl:w-screen  col-start-1 col-end-13 row-start-1 row-end-17 flex flex-row max-xl:justify-evenly justify-between items-center px-12">
 
                 {/* Logo */}
-                <div className="max-xl:hidden w-12">
+                <Link to={'/'} className="max-xl:hidden w-12">
                     <Logo />
-                </div>
+                </Link>
 
                 {/* Small Screen Logo */}
-                <div className="hidden max-xl:block pl-2 w-12">
+                <Link to={'/'} className="hidden max-xl:block pl-2 w-12">
                     <SmLogo />
-                </div>
+                </Link>
 
 
                 <Notification />

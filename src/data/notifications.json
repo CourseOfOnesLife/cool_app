@@ -2,13 +2,13 @@
   {
     "syntax": "ileri-seviye-css-1",
     "id": 1,
-    "icon": "<ExamNotification />",
+    "icon": "ExamNotification",
     "content": "exam"
   },
   {
     "syntax": "profile-view-count",
     "id": 2,
-    "icon": "<EyeNotification />",
+    "icon": "EyeNotification",
     "content": "view"
   }
 ]

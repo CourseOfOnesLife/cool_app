@@ -12,7 +12,7 @@ const Suggestions = () => {
                         olarak kullanabilirsiniz.
                     </div>
 
-                    <div className="w-full p-0 flex justify-end items-end h-full ">
+                    <div className="w-full p-0 flex justify-end items-end h-full">
                         <div className= "max-lg:w-[140px] max-xl:w-[145px] w-[150px]">
                             <CoolSuggestion />
                         </div>
