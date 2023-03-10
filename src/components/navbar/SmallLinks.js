@@ -28,7 +28,6 @@ const SmallLinks = () => {
     }, [location.pathname])
 
 
-
     return (
 
         <div className="hidden max-xl:block flex-col space-y-5">

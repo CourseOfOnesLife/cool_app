@@ -23,14 +23,14 @@ const ExamsMainContent = () => {
             <div className=' px-1 flex flex-col space-y-5'>
                 <div className='text-[#582270] font-semibold text-3xl'>Sınavlar</div>
                 <div className='bg-[#D9D9D9] border-2 border-[#F1EDE7] rounded-2xl shadow-md  w-[15rem]'>
-                    <div className='text-start font-medium text-2xl max-w-[10rem] py-3 px-3'>
+                    <div className='text-start font-medium text-2xl max-w-[10rem] pb-3 pt-2 px-3 text-[#582270]'>
                         Javascript temelleri
                     </div>
                     <div className='w-full h-0.5 bg-[#582270]'> </div>
 
                     <div className='flex flex-row justify-end items-center py-1 px-2'>
                     <div className='text-end text-lg font-medium text-[#582270]'>Başla</div>
-                    <Arrow className='fill-[#582270] w-[0.9rem] ml-2'/>
+                    <Arrow className='fill-[#582270] w-[0.8rem] ml-2 mt-0.5'/>
                     </div>
                 </div>
 
