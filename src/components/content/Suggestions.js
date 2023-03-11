@@ -16,7 +16,7 @@ const Suggestions = () => {
                         <div className= "max-lg:w-[140px] max-xl:w-[145px] w-[150px]">
                             <CoolSuggestion />
                         </div>
-                        <div className="absolute fill-[#86EE03] pb-5 pr-5">
+                        <div className="absolute fill-[#86EE03] w-[4.5vh] pb-5 pr-5">
                             <Arrow />
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const Suggestions = () => {
                 Özgeçmişini güçlendirmek <br/> için yapılması gerekenler
                 </div>
                 
-                <div className= "fill-[#335708] relative pt-2 pr-5">
+                <div className= "fill-[#335708]  w-[4.5vh] relative pt-2 pr-5">
                 <Arrow />
                 </div>
                 </div>

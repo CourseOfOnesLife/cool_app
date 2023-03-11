@@ -17,8 +17,8 @@ function Profile() {
              <div className="flex flex-row items-center justify-between">
                <div className="font-medium text-[1.2vw]">Selam, Mert!</div>
 
-               <div className="pr-2">
-                 <Arrow />
+               <div className="pr-2 w-[2.8vh]">
+                 <Arrow /> 
                </div>
 
              </div>

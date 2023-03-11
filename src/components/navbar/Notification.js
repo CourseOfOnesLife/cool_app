@@ -54,14 +54,14 @@ const Notification = () => {
     return (
         <div className="inline-block max-xl:block w-12 ">
             <div onClick={handleShow} className="hidden max-xl:block pl-5">
-                <div className="rounded-full bg-[#73CE00] w-[4.5vh] h-[4.5vh] flex justify-center items-center text-2xl text-white font-semibold">{Notifications.length}</div>
+                <div className="rounded-full bg-[#73CE00] w-[2.3rem] h-[2.3rem] max-lg:w-[2rem] max-lg:h-[2rem] max-lg:text-xl flex justify-center items-center text-2xl text-white font-semibold">{Notifications.length}</div>
             </div>
 
             {ShowNotifications && (
                 <div className='w-[20em] h-fit absolute z-50 bg-white border-[#DFDCDC] shadow-2xl border-2 rounded-2xl mt-2 divide-y-2 divide-[#DFDCDC]'>
                     {Notifications.map((notification) => (
                         <div key={notification.id} className="py-1  w-full flex space-x-[1vw] justify-center items-center">
-                            <div className="pl-4 w-[7.5vw] h-auto">
+                            <div className="pl-4 w-[5rem] h-auto">
                                {notification.icon === 'ExamNotification' && (
                                    <ExamNotification />
                                 )}
@@ -70,7 +70,7 @@ const Notification = () => {
                                 )}
                             </div>
                             <div className="w-full pt-2 pr-4 pb-1">
-                                <div className="text-[1.2vw] text-start leading-tight h-14">
+                                <div className=" text-[0.85rem] text-start leading-tight h-14">
                                     {/* Burada bildirimin content tipine göre filtreleme yaptıktan sonra gereken yerlerden veri çekme işlemi gerçekleşiyor */}
 
 
