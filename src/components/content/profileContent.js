@@ -12,14 +12,14 @@ const profileContent = () => {
                     {/* if window width is 720px then take data from splittedData */}
                     {window.innerWidth < 720 ? splittedData.map((item) => {
                         return (
-                            <div className="bg-[#335708] odd:bg-[#E8E8E8] odd:text-[#335708]  h-full w-full rounded-2xl flex pl-4 pt-3 items-start max-lg:text-[1.4vw] max-md:text-[1rem]  max-xl:text-[1.3vw] text-[1vw] text-start font-semibold text-[#86EE03] ">
-                                 <div className="max-md:max-w-[9rem] max-lg:max-w-[7rem]"> {item.syntax}</div>
+                            <div key={item.id} className="bg-[#335708] odd:bg-[#E8E8E8] odd:text-[#335708]  h-full w-full rounded-2xl flex pl-4 pt-3 items-start max-lg:text-[1rem] max-md:text-[1rem]  max-xl:text-[1.15rem] text-[1rem] text-start font-semibold text-[#86EE03] ">
+                                 <div className="max-md:max-w-[9rem] max-lg:max-w-[8rem]"> {item.syntax}</div>
                             </div>
                         );
                     }) : profileData.map((item) => {
                         return (
-                            <div className="bg-[#335708] odd:bg-[#E8E8E8] odd:text-[#335708] h-full w-full rounded-2xl flex pl-4 pt-3 max-md:items-center max-md:text-center items-start max-lg:text-[1.4vw] max-xl:text-[1.3vw] max-md:text-[1.7vw] text-[1vw] text-start font-semibold text-[#86EE03] ">
-                               <div className="max-md:max-w-[12rem] max-lg:max-w-[7rem]"> {item.syntax}</div>
+                            <div  key={item.id} className="bg-[#335708] odd:bg-[#E8E8E8] odd:text-[#335708] h-full w-full rounded-2xl flex pl-4 pt-3 max-md:items-center max-md:text-center items-start max-lg:text-[0.9rem] max-xl:text-[1rem] max-md:text-[0.8rem] text-[1rem] text-start font-semibold text-[#86EE03] ">
+                               <div className="max-w-[9rem] max-md:max-w-[12rem] max-lg:max-w-[8rem]"> {item.syntax}</div>
                             </div>
                         );
                     }) }
