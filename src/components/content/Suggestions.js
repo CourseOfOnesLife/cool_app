@@ -3,7 +3,7 @@ import { ReactComponent as Arrow } from "../../assets/arrow.svg";
 
 const Suggestions = () => {
     return (
-        <div className="bg-white border-2 border-[#F1EDE7] h-64 w-full rounded-2xl pb-16 pt-8">
+        <div className="bg-white border-2 border-[#F1EDE7] max-md:h-[20rem] h-64 w-full rounded-2xl pb-16 pt-8">
             <div className="flex flex-row  space-x-6  h-full items-center px-6 pb-6">
                 
                 <div className="bg-[#335708] max-lg:text-[1.6vw] max-xl:text-[1.8vh] h-full w-screen rounded-2xl flex items-start text-[1.1rem] text-start pl-5 font-semibold text-[#86EE03] ">

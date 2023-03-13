@@ -18,7 +18,7 @@ function SearchBar() {
     return (
         <div className="flex flex-row space-x-3 w-full pr-10 max-xl:pr-0">
             {/* Search Bar */}
-            <div className="flex flex-row justify-between items-center w-full max-xl:w-[33vw]">
+            <div className="flex flex-row justify-between items-center w-full max-md:w-[40vw] max-xl:w-[33vw]">
                 <div className="w-6 absolute p-3">
                     <Search />
                 </div>

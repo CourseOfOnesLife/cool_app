@@ -8,7 +8,7 @@ import ExamsData from '../data/exams.json';
 
 const ExamsMainContent = () => {
     return (
-        <div className='bg-[#F8F3EB] max-xl:w-screen max-xl:h-screen
+        <div className='bg-[#F8F3EB]  max-xl:h-screen
         w-screen h-full flex flex-col overflow-hidden space-y-10 row-start-1 row-end-17 col-start-1 col-end-13 max-xl:pt-2 pb-4 px-12'>
             <div className=" w-full pt-1 bg-[#335708] flex justify-between items-center rounded-2xl border-2 border-[#F1EDE7] shadow-md">
 

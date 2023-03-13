@@ -30,7 +30,7 @@ const SmallLinks = () => {
 
     return (
 
-        <div className="hidden max-xl:block flex-col space-y-5">
+        <div className="max-md:hidden hidden max-xl:block flex-col space-y-5">
             <div className="relative inline-block text-left">
                 <div onClick={handleDropdown}>
                     <button type="button" className="transition-all inline-flex w-full justify-center gap-x-5 rounded-full bg-[#582270] px-4 py-2 text-sm  font-semibold text-[#F8F3EB]" id="menu-button" aria-expanded="true" aria-haspopup="true">

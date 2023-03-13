@@ -29,8 +29,9 @@ const Navbar = () => {
                     <SmLogo />
                 </Link>
 
-
+                
                 <Notification />
+                
 
                 <div className="hidden max-xl:block pl-5">
                     <SearchBar />
@@ -40,6 +41,9 @@ const Navbar = () => {
 
                 {/* Small Screen Links */}
                 <SmallLinks />
+
+
+                {/* Tablet and Phone Screen Notification */}
 
 
 
