@@ -25,19 +25,19 @@ const Navbar = () => {
                 </Link>
 
                 {/* Small Screen Logo */}
-                <Link to={'/'} className="hidden max-xl:block pl-2 w-12">
+                <Link to={'/'} className=" min-w-10 max-md:w-10 hidden max-xl:block pl-2 w-12">
                     <SmLogo />
                 </Link>
 
-                
+
                 <Notification />
-                
+
 
                 <div className="hidden max-xl:block pl-5">
                     <SearchBar />
                 </div>
 
-               
+
 
                 {/* Small Screen Links */}
                 <SmallLinks />
@@ -56,10 +56,11 @@ const Navbar = () => {
 
                 <Links />
 
-                {/* Search Bar */}
+              
 
 
             </div>
+              {/* Search Bar */}
             <div className="max-xl:hidden  col-start-13 col-end-17 row-start-1 row-end-17 bg-[#F8F3EB] flex flex-row  items-center justify-between ">
                 <SearchBar />
             </div>

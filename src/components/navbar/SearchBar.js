@@ -18,13 +18,13 @@ function SearchBar() {
     return (
         <div className="flex flex-row space-x-3 w-full pr-10 max-xl:pr-0">
             {/* Search Bar */}
-            <div className="flex flex-row justify-between items-center w-full max-md:w-[40vw] max-xl:w-[33vw]">
-                <div className="w-6 absolute p-3">
+            <div className="flex flex-row justify-between items-center  w-full max-md:w-[45vw] max-xl:w-[33vw]">
+                <div className="w-6 absolute p-3 max-md:w-4">
                     <Search />
                 </div>
                 <input
                     type="text"
-                    className="transition-all pl-10 w-full focus:outline-[#582270] h-12 border-2 border-[#DFDCDC] rounded-2xl"
+                    className="transition-all pl-10 w-full focus:outline-[#582270] h-12 max-md:h-10 border-2 border-[#DFDCDC] rounded-2xl"
                     placeholder="Ara"
                 />
             </div>

@@ -9,14 +9,14 @@ const SmallScreenData = SuggestionsData.slice(1, 2)
 
 const Suggestions = () => {
     return (
-        <div className="bg-white border-2 border-[#F1EDE7] max-md:h-[20rem] h-64 w-full rounded-2xl pb-16 pt-8">
-            <div className="flex flex-row  space-x-6  h-full items-center px-6 pb-6">
+        <div className="bg-white border-2 border-[#F1EDE7] max-md:h-[19rem] h-64 w-full rounded-2xl pb-16 pt-8">
+            <div className="flex flex-row space-x-6  h-full items-center px-6 pb-6">
                 {/* First element of array with cool logo */}
-                <div className="bg-[#335708] max-lg:text-[1.6vw] max-xl:text-[1.8vh] h-full w-screen rounded-2xl flex items-start max-md:text-[1rem]  max-xl:text-md text-[1.1rem] text-start pl-5 font-semibold text-[#86EE03] ">
+                <div className="bg-[#335708] max-lg:text-[1.6vw] max-xl:text-[1.8vh] h-full  w-screen rounded-2xl flex items-start max-md:text-[1rem]  max-xl:text-md text-[1.1rem] text-start pl-5 font-semibold text-[#86EE03] ">
                     <div className="absolute pt-3 max-md:max-w-[10rem] max-lg:max-w-[12rem] max-xl:max-w-[14rem] max-w-[13rem]">
                         {FirstElementofData.syntax}
                     </div>
-                    <div className="w-full p-0 flex justify-end items-end h-full">
+                    <div className=" w-full p-0 flex justify-end items-end h-full">
                         <div className="max-lg:w-[140px] max-xl:w-[145px] w-[150px]">
                             <CoolSuggestion />
                         </div>
@@ -35,9 +35,6 @@ const Suggestions = () => {
                             {item.syntax}
                         </div>
     
-                        <div className="fill-[#335708] w-[4.5vh] relative pt-2 pr-5">
-                            <Arrow />
-                        </div>
                     </div>
 
                     )
@@ -49,17 +46,13 @@ const Suggestions = () => {
                         <div className=" max-md:max-w-[10rem] max-lg:max-w-[12rem] max-xl:max-w-[14rem] max-w-[13rem]">
                             {item.syntax}
                         </div>
-    
-                        <div className="fill-[#335708] w-[4.5vh] relative pt-2 pr-5">
-                            <Arrow />
-                        </div>
                     </div>
                     )
                 })}
 
             </div>
             <div className="w-full h-0.5 bg-[#F1EDE7]"></div>
-            <p className=" text-[#335708] text-end pr-6 text-2xl font-bold py-3"><span className="italic">Yeni!</span> Profilinizden Özgeçmiş Oluşturun!</p>
+            <p className=" text-[#335708] max-md:text-[1.4rem] text-end pr-6 text-2xl font-bold py-3"><span className="italic">Yeni!</span> Profilinizden Özgeçmiş Oluşturun!</p>
         </div>
     )
 }
