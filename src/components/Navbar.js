@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Notification />
 
 
-                <div className="hidden max-xl:block pl-5">
+                <div className="max-sm:hidden hidden max-xl:block pl-5">
                     <SearchBar />
                 </div>
 

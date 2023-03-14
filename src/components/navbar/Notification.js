@@ -52,7 +52,7 @@ const Notification = () => {
 
 
     return (
-        <div className="inline-block max-xl:block w-12 ">
+        <div className="max-sm:hidden inline-block max-xl:block w-12 ">
             <div onClick={handleShow} className="hidden max-xl:block pl-5">
                 <div className="rounded-full bg-[#73CE00] w-[2.3rem] h-[2.3rem] max-lg:w-[2rem] max-lg:h-[2rem] max-lg:text-xl flex justify-center items-center text-2xl text-white font-semibold">{Notifications.length}</div>
             </div>
