@@ -91,7 +91,9 @@ const Notification = () => {
 
                                 </div>
                             </div>
+                            <div onClick={handleShow} className='w-screen opacity-0 bg-white h-screen  absolute'/>
                         </div>
+                        
                     ))}
 
 
