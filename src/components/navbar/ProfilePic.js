@@ -1,6 +1,5 @@
 import Example from "../../assets/example.png";
 import { ReactComponent as DownDropdown } from "../../assets/DownDropdown.svg";
-import DropdownMenu from "./DropdownMenu";
 import { useState } from "react";
 
 
@@ -22,7 +21,12 @@ const ProfilePic = () => {
             </div>
 
             {ShowDropdown && (
-                <DropdownMenu />
+                <div>
+                    <div className="absolute w-1/2 shadow-2xl right-0 top-0 bg-[#F8F3EB] h-screen  border-l-2 border-[#DFDCDC]">
+
+                    </div>
+                    <div onClick={handleShow} className="absolute w-1/2 left-0 top-0 bg-black opacity-50 h-screen"></div>
+                </div>
             )}
 
         </div>
