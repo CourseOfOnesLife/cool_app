@@ -52,8 +52,9 @@ const SmallLinks = () => {
                         </div>
                     </div>
                 )}
+            
             </div>
-            <div onClick={handleDropdown} className='w-screen opacity-100 h-screen top-0 left-0 absolute'/>
+           
         </div>
 
     );

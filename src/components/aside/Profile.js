@@ -1,5 +1,6 @@
 import { ReactComponent as Arrow } from "../../assets/arrow.svg";
 import Example from "../../assets/example.png";
+import {Link} from 'react-router-dom'
 
 
 function Profile() {
@@ -7,7 +8,7 @@ function Profile() {
     return (
        
          <div className="bg-white border-2 border-[#F1EDE7] p-3  h-24 w-full rounded-2xl">
-         <div className="h-full w-full flex flex-row">
+         <Link to={'/profile'} className="h-full w-full flex flex-row">
            {/* Profile Picture */}
            <img alt="Profile Pic" src={Example} className="h-16 rounded-full border-2  border-[#DFDCDC]" />
 
@@ -31,7 +32,7 @@ function Profile() {
                Deneyimlerini eklemeyi unutma!
              </div>
            </div>
-         </div>
+         </Link>
        </div>
     );
 }

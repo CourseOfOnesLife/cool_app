@@ -25,7 +25,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Small Screen Logo */}
-                <Link to={'/'} className=" min-w-10 max-md:w-10 hidden max-xl:block pl-2 w-12">
+                <Link to={'/'} className=" min-w-8 max-sm:w-8 max-md:w-10 hidden max-xl:block pl-2 w-12">
                     <SmLogo />
                 </Link>
 
