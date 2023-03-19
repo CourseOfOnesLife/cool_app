@@ -1,0 +1,17 @@
+[
+  {
+    "certification_name": "Certified Scrum Master",
+    "certification_id": "1",
+    "certification_date": "Kasım, 2019"
+  },
+  {
+    "certification_name" : "Javascript Developer, CS50", 
+    "certification_id" : "2",
+    "certification_date": "Kasım, 2020"
+  },
+  {
+    "certification_name": "Bussiness Analyst",
+    "certification_id": "3",
+    "certification_date": "Kasım, 2021"
+  }
+]
