@@ -8,8 +8,8 @@ const Certifications = () => {
 
             <div className="h-full w-full flex pb-[4.5rem] flex-col justify-center p-4">
 
-                {CertificationsData.slice(0,2).map((certification) => (
-                    <div className="h-16 w-full  rounded-xl flex flex-row space-x-3">
+                {CertificationsData.slice(0,2).map((certification,index) => (
+                    <div key={index} className="h-16 w-full  rounded-xl flex flex-row space-x-3">
                         <div className="w-4/6 h-14 bg-[#582270] rounded-2xl ">
                             <p className="text-white text-md font-medium pl-3 flex items-center w-full h-full">{certification.certification_name}</p>
                         </div>
