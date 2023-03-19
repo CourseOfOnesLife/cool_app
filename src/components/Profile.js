@@ -6,6 +6,7 @@ import ExamsComponent from "./profile/exams";
 import OrganizationsComponent from "./profile/organizations";
 import ProfilePicComponent from "./profile/profilePic";
 import CertificationsComponent from "./profile/certifications";
+import ExperienceComponent from "./profile/experiences";
 
 const Profile = () => {
     return (
@@ -18,28 +19,22 @@ const Profile = () => {
 
             <div className="rounded-2xl w-full h-1/4 flex flex-row space-x-5">
                 <CertificationsComponent />
-                <div className="bg-white  h-full w-5/12 rounded-2xl  border-2">
-                    <p className="text-xl font-semibold text-[#335708] mt-3 ml-4">Deneyimler</p>
-                    <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
-                    <div className="w-full h-full p-4 pb-[4.5rem] flex flex-row space-x-5">
-                        <div className="flex flex-col h-full w-48  bg-[#335708] rounded-2xl">
-                            <p className="text-white text-lg font-semibold pt-2 pl-3 max-w-[140px] pb-3">Front-end Developer</p>
-                            <div className="w-full h-0.5 bg-[#86EE03]" />
-                            <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">Jotform</div>
-                            <div className="flex justify-end content-end text-[#86EE03] font-semibold text-sm italic  pt-0 pr-3">2022-2023</div>
-                        </div>
-                        <div className="h-full w-48 bg-[#335708] rounded-2xl">
-
-                        </div>
-                        <div className="h-full w-48 bg-[#335708] rounded-2xl">
-
-                        </div>
-                    </div>
-
-                </div>
+                <ExperienceComponent />
                 <div className="bg-white  h-full w-3/12 rounded-2xl  border-2">
                     <p className="text-xl font-semibold text-[#582270] mt-3 ml-4">Diller</p>
                     <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
+                    <div className="w-full h-full p-4 pb-[4.5rem] space-y-3">
+                        <div className="h-12 w-full bg-[#335708] rounded-2xl justify-between  flex flex-row ">
+                            <p className="text-white text-lg font-semibold pt-2 pl-3">Türkçe</p>
+                            <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">C2</div>
+                        </div>
+                        <div className="h-12 w-full bg-[#335708] rounded-2xl justify-between  flex flex-row">
+                            <p className="text-white text-lg font-semibold pt-2 pl-3">İngilizce</p>
+                            <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">B2</div>
+                        </div>
+
+
+                    </div>
 
                 </div>
 
