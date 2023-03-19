@@ -1,5 +1,5 @@
 import { ReactComponent as CoolSuggestion } from "../../assets/CoolSuggestion.svg";
-import { ReactComponent as Arrow } from "../../assets/arrow.svg";
+import { ReactComponent as Arrow } from "../../assets/ArrowGreen.svg";
 
 import SuggestionsData from '../../data/suggestions.json'
 
@@ -42,7 +42,7 @@ const Suggestions = () => {
                 }
                 ) : SmallScreenData.map((item) => {
                     return (
-                        <div key={item.id} className=" odd:bg-[#335708] bg-[#E8E8E8] max-sm:text-[1rem] max-lg:text-[1.7vw] max-xl:text-[2vh] h-full w-full rounded-2xl flex max-sm:pl-4  pl-5 pt-3 justify-between items-start max-md:text-[1.2rem] max-xl:text-md text-[1.1rem] text-start font-semibold odd:text-[#E8E8E8] text-[#335708]">
+                        <div key={item.id} className=" odd:bg-[#335708] bg-[#E8E8E8] max-sm:text-[1rem] max-lg:text-[1.7vw] max-xl:text-[2vh] h-full w-full rounded-2xl flex max-sm:h-fit max-sm:pb-5 pb-0 max-sm:pl-4  pl-5 pt-3 justify-between items-start max-md:text-[1.2rem] max-xl:text-md text-[1.1rem] text-start font-semibold odd:text-[#E8E8E8] text-[#335708]">
                         <div className="max-sm:max-w-[10rem] max-md:max-w-[14rem] max-lg:max-w-[12rem] max-xl:max-w-[14rem] max-w-[13rem]">
                             {item.syntax}
                         </div>

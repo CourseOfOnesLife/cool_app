@@ -1,0 +1,26 @@
+[
+  {
+    "organization_name": "Organization 1",
+    "organization_id": "1",
+    "organization_url": "https://www.example.com",
+    "organization_year": "2018"
+  },
+  {
+    "organization_name": "Organization 2",
+    "organization_id": "2",
+    "organization_url": "https://www.example.com",
+    "organization_year": "2019"
+  },
+  {
+    "organization_name": "Organization 3",
+    "organization_id": "3",
+    "organization_url": "https://www.example.com",
+    "organization_year": "2020"
+  },
+  {
+    "organization_name": "Organization 4",
+    "organization_id": "4",
+    "organization_url": "https://www.example.com",
+    "organization_year": "2021"
+  }
+]

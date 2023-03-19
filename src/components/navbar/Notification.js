@@ -58,6 +58,7 @@ const Notification = () => {
             </div>
 
             {ShowNotifications && (
+               
                 <div className='w-[20em] h-fit absolute z-50 bg-white border-[#DFDCDC] shadow-2xl border-2 rounded-2xl mt-2 divide-y-2 divide-[#DFDCDC]'>
                     {Notifications.map((notification) => (
                         <div key={notification.id} className="py-1  w-full flex space-x-[1vw] justify-center items-center">
@@ -69,7 +70,7 @@ const Notification = () => {
                                     <EyeNotification />
                                 )}
                             </div>
-                            <div className="w-full pt-2 pr-4 pb-1">
+                            <div className="z-50 w-full pt-2 pr-4 pb-1">
                                 <div className=" text-[0.85rem] text-start leading-tight h-14">
                                     {/* Burada bildirimin content tipine göre filtreleme yaptıktan sonra gereken yerlerden veri çekme işlemi gerçekleşiyor */}
 
@@ -91,8 +92,9 @@ const Notification = () => {
 
                                 </div>
                             </div>
-                            <div onClick={handleShow} className='w-screen opacity-0 bg-white h-screen  absolute'/>
+                            
                         </div>
+                        
                         
                     ))}
 
