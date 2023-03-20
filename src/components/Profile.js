@@ -7,41 +7,34 @@ import OrganizationsComponent from "./profile/organizations";
 import ProfilePicComponent from "./profile/profilePic";
 import CertificationsComponent from "./profile/certifications";
 import ExperienceComponent from "./profile/experiences";
+import LanguagesComponent from "./profile/languages";
 
 const Profile = () => {
     return (
         <div className="max-2xl:overflow-hidden w-screen bg-[#F8F3EB] h-screen  px-10 space-y-8">
+            {/* Top Section */}
             <div className="rounded-2xl w-full h-1/4  flex space-x-5 flex-row ">
                 <ProfilePicComponent />
                 <ExamsComponent />
                 <OrganizationsComponent />
             </div>
-
+            {/* Middle Section */}
             <div className="rounded-2xl w-full h-1/4 flex flex-row space-x-5">
                 <CertificationsComponent />
                 <ExperienceComponent />
-                <div className="bg-white  h-full w-3/12 rounded-2xl  border-2">
-                    <p className="text-xl font-semibold text-[#582270] mt-3 ml-4">Diller</p>
-                    <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
-                    <div className="w-full h-full p-4 pb-[4.5rem] space-y-3">
-                        <div className="h-12 w-full bg-[#335708] rounded-2xl justify-between  flex flex-row ">
-                            <p className="text-white text-lg font-semibold pt-2 pl-3">Türkçe</p>
-                            <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">C2</div>
-                        </div>
-                        <div className="h-12 w-full bg-[#335708] rounded-2xl justify-between  flex flex-row">
-                            <p className="text-white text-lg font-semibold pt-2 pl-3">İngilizce</p>
-                            <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">B2</div>
-                        </div>
+                <LanguagesComponent />
 
-
-                    </div>
-
-                </div>
 
             </div>
+            {/* Bottom Section */}
             <div className="rounded-2xl w-full h-1/4  flex flex-row space-x-5">
                 <div className="h-full w-4/12 rounded-2xl space-y-3 ">
-                    <div className="bg-white w-full h-1/2 rounded-2xl border-2">
+                    <div className="bg-white w-full h-1/2  flex rounded-2xl border-2">
+                        <div className="w-full h-full px-4 space-x-5 justify-center py-3 rounded-2xl flex flex-row">
+                            <div className="w-32 h-full bg-gray-200 rounded-2xl flex"></div>
+                            <div className="w-32 h-full bg-gray-200 rounded-2xl flex"></div>
+                            <div className="w-32 h-full bg-gray-200 rounded-2xl flex"></div>
+                        </div>
 
                     </div>
                     <div className="bg-[#335708] w-full h-1/2 rounded-2xl border-[#86EE03] flex justify-center items-center">
