@@ -71,7 +71,7 @@ const Notification = () => {
                                 )}
                             </div>
                             <div className="z-50 w-full pt-2 pr-4 pb-1">
-                                <div className=" text-[0.85rem] text-start leading-tight h-14">
+                                <div className="text-gray-600 text-[0.85rem] text-start leading-tight h-14">
                                     {/* Burada bildirimin content tipine göre filtreleme yaptıktan sonra gereken yerlerden veri çekme işlemi gerçekleşiyor */}
 
 
@@ -85,7 +85,7 @@ const Notification = () => {
 
                                     )}
                                     {notification.content === 'view' && (
-                                        <p>Profiline şu ana kadar <span className="font-bold text-[#582270]">{Finder(ProfileViewCount, notification.syntax).count} </span> kişi baktı. <br />
+                                        <p>Profiline şu ana kadar <span className="t font-bold text-[#582270]">{Finder(ProfileViewCount, notification.syntax).count} </span> kişi baktı. <br />
                                             Profilini güncelle ve <span className="font-bold">daha fazla kişiye</span> ulaş!</p>
                                     )}
 
