@@ -14,6 +14,7 @@ const Experience = () => {
                         <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">{experience.company}</div>
                         <div className="flex justify-end content-end text-[#86EE03] font-semibold text-sm italic  pt-0 pr-3">{experience.startDate}-{experience.endDate}</div>
                     </div>
+                    
                     ))}
 
 
