@@ -9,7 +9,6 @@ const name = "Tayfun Sönmez";
 
 const ProfilePic = () => {
     const [showDropdown, setShowDropdown] = useState(false);
-    const [showSettings, setShowSettings] = useState(false);
     const [smallScreen, setSmallScreen] = useState(false);
 
     useEffect(() => {

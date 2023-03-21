@@ -32,6 +32,9 @@ function SearchBar() {
             <div id="lightButton" className="max-xl:hidden transition-all px-[13px] w-fit h-12 border-2 flex justify-center items-center dark  bg-white  border-[#DFDCDC] pt-1 rounded-2xl" onClick={changeButton}>
                 <DropDown />
             </div>
+
+
+            
         </div>
     );
 }
