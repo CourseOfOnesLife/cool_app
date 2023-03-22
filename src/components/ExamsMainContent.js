@@ -9,7 +9,7 @@ import ExamsData from '../data/exams.json';
 const ExamsMainContent = () => {
     return (
         <div className='bg-[#F8F3EB]  max-sm:h-fit max-md:h-full max-xl:h-screen
-        w-full h-full flex flex-col  space-y-10 row-start-1 row-end-17 col-start-1 col-end-13 max-xl:pt-2 pb-4 px-10'>
+        w-screen h-full flex flex-col  space-y-10 row-start-1 row-end-17 col-start-1 col-end-13 max-xl:pt-2 pb-4 px-10'>
             <div className=" w-full pt-1 bg-[#335708] flex justify-between max-md:justify-center items-center rounded-2xl border-2 border-[#F1EDE7] shadow-md">
 
                 <div className='flex items-start text-[#86EE03] max-md:text-xl px-6 pb-2 text-2xl max-md:items-center max-md:text-center text-start font-semibold max-w-[38rem] max-xl:max-w-[30rem] max-lg:text-xl max-lg:max-w-[25rem]'>
