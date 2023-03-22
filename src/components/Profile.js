@@ -14,7 +14,7 @@ const Profile = () => {
     return (
         <>
             {/* For ExtreLarge Screens */}
-            <div className=" max-xl:hidden max-2xl:overflow-hidden w-screen bg-[#F8F3EB] h-full  px-10 space-y-8">
+            <div className=" max-xl:hidden max-2xl:overflow-hidden w-full bg-[#F8F3EB] h-full  pb-16  px-10 space-y-8">
                 {/* Top Section */}
                 <div className="rounded-2xl w-full h-1/4  flex space-x-5 flex-row ">
                     <ProfilePicComponent />
@@ -33,7 +33,7 @@ const Profile = () => {
                 <div className="rounded-2xl w-full h-1/4  flex flex-row space-x-5">
                     {/* Double Section personality and badges */}
 
-                    <div className="h-full w-4/12 rounded-2xl space-y-3 ">
+                    <div className="h-full w-4/12 rounded-2xl space-y-3 flex flex-col">
                         <BadgesComponent />
                         <PersonalityComponent />
                     </div>
@@ -62,7 +62,7 @@ const Profile = () => {
                 </div>
 
                 <div className="rounded-2xl w-full h-1/5  flex flex-row space-x-5">
-                    <div className=" w-4/12 max-xl:w-6/12 rounded-2xl space-y-3 max-xl:space-y-1 ">
+                    <div className=" w-4/12 max-xl:w-6/12 rounded-2xl space-y-3 ">
                         <BadgesComponent />
                         <PersonalityComponent />
                     </div>
@@ -103,7 +103,7 @@ const Profile = () => {
                 <div className="rounded-2xl w-full h-1/4  flex flex-row space-x-5">
                     {/* Double Section personality and badges */}
 
-                    <div className="h-full w-4/12 rounded-2xl space-y-3 ">
+                    <div className="h-full w-4/12 rounded-2xl space--3 ">
                         <BadgesComponent />
                         <PersonalityComponent />
                     </div>

@@ -6,7 +6,7 @@ import LanguagesData from "../../data/languages.json";
 const Languages = () => {
     return (
         <div className="bg-white   h-full w-4/12 max-xl:w-6/12 rounded-2xl  border-2">
-            <div className="block  w-full ">
+            <div className="block w-full ">
                 <p className="text-xl font-semibold text-[#582270] mt-3 ml-4">Diller</p>
                 <div className="w-full h-0.5 bg-gray-200 mt-3 flex justify-center items-center"></div>
             </div>
