@@ -15,7 +15,7 @@ import ProfilePic from "./navbar/ProfilePic";
 const Navbar = () => {
 
     return (
-        <div className='col-start-1 col-end-17 row-start-1 row-end-3 top-0   grid grid-rows-16 grid-cols-16 w-full h-32'>
+        <div className='col-start-1 col-end-17 row-start-1 row-end-3 top-0  grid grid-rows-16 grid-cols-16 w-full h-32'>
 
             <div className="bg-[#F8F3EB] max-xl:w-screen  col-start-1 col-end-13 row-start-1 row-end-17 flex flex-row  justify-between items-center px-12">
 

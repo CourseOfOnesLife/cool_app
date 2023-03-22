@@ -3,7 +3,7 @@ import ExperienceData from '../../data/experiences.json'
 
 const Experience = () => {
     return (
-        <div className="bg-white  h-full w-6/12 max-xl:w-6/12 rounded-2xl border-2">
+        <div className="bg-white  h-full  max-xl:w-8/12 w-5/12 rounded-2xl  border-2">
             <p className="text-xl font-semibold text-[#335708] mt-3 ml-4">Deneyimler</p>
             <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
             <div className="w-full h-full p-4 pb-[4.5rem] flex flex-row space-x-5">
