@@ -1,4 +1,4 @@
-import ProfileContent from "./content/ProfileContent";
+import ProfileContent from "./content/ProfileContent.js";
 import ExamsContent from "./content/ExamContent";
 import Suggestions from "./content/Suggestions";
 import { useLocation } from "react-router-dom";

@@ -2,7 +2,7 @@ import CertificationsData from '../../data/certifications.json';
 
 const Certifications = () => {
     return (
-        <div className="bg-white h-full w-4/12 rounded-2xl  border-2">
+        <div className="bg-white h-full  max-xl:w-6/12 w-4/12 rounded-2xl  border-2">
             <p className="text-xl font-semibold text-[#582270] mt-3 ml-4">Sertifikalar</p>
             <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
 

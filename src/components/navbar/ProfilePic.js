@@ -40,9 +40,9 @@ const ProfilePic = () => {
                         <div className="h-full w-screen absolute left-0 top-0">
                             <div className="absolute max-md:w-1/2 max-sm:w-2/3 shadow-2xl drop-shadow-2xl right-0 top-0 bg-[#F8F3EB] h-screen border-l-2 border-[#DFDCDC]">
                                
-                                <div className="flex flex-row space-x-5 max-sm:justify-end justify-center max-sm:pl-10 max-md:pl-8 max-md:pr-10  pt-8 items-center">
+                                <div className="flex flex-row space-x-5 max-sm:justify-end justify-center max-sm:pl-10 max-md:px-8 max-sm:px-3 pt-8 items-center">
                                     <img alt="Profile Pic" src={Example} className="h-14 rounded-full border-2 border-[#DFDCDC]" />
-                                    <div className="text-2xl flex  font-semibold text-[#582270]">{name}</div>
+                                    <div className="text-2xl max-sm:text-xl w-full flex max-w-none font-semibold text-[#582270]">{name}</div>
                                 </div>
                                 <div className="w-full h-0.5 bg-[#DFDCDC] mt-8" />
                                 <div className="flex flex-col text-3xl font-semibold text-[#582270] text-end justify-end space-y-10 pt-20 pr-10">
