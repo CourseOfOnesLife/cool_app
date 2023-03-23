@@ -14,7 +14,7 @@ const Profile = () => {
     return (
         <>
             {/* For Extra Large Screens */}
-            <div className=" max-xl:hidden max-2xl:overflow-hidden w-screen bg-[#F8F3EB] h-screen  px-10 space-y-8">
+            <div className=" max-xl:hidden max-2xl:overflow-hidden w-screen  bg-[#F8F3EB] h-full  px-10 space-y-8">
                 {/* Top Section */}
                 <div className="rounded-2xl w-full h-1/4  flex space-x-5 flex-row ">
                     <ProfilePicComponent />
@@ -23,7 +23,7 @@ const Profile = () => {
                 </div>
                 {/* Middle Section */}
                 <div className="rounded-2xl w-full h-1/4 flex flex-row space-x-5">
-                    <CertificationsComponent />
+                    <CertificationsComponent /> 
                     <ExperienceComponent />
                     <LanguagesComponent />
 
