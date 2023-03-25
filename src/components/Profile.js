@@ -12,113 +12,35 @@ import SkillsComponent from "./profile/skills"
 
 const Profile = () => {
     return (
-        <>
-            {/* For Extra Large Screens */}
-            <div className=" max-xl:hidden max-2xl:overflow-hidden w-screen  bg-[#F8F3EB] h-full  px-10 space-y-8">
-                {/* Top Section */}
-                <div className="rounded-2xl w-full h-1/4  flex space-x-5 flex-row ">
+        <div className="overflow-hidden max-md:pb-10 bg-[#F8F3EB] 
+        max-md:h-full max-md:w-screen z-10 top-0   grid grid-rows-16 grid-cols-16 h-screen w-full">
+            <div className="col-start-1 col-end-17 row-start-1 row-end-17 h-full flex  flex-col">
+
+                <div className="px-8 py-2 flex flex-row gap-x-5 ">
                     <ProfilePicComponent />
                     <ExamsComponent />
                     <OrganizationsComponent />
                 </div>
-                {/* Middle Section */}
-                <div className="rounded-2xl w-full h-1/4 flex flex-row space-x-5">
-                    <CertificationsComponent /> 
-                    <ExperienceComponent />
-                    <LanguagesComponent />
-
-
-                </div>
-                {/* Bottom Section */}
-                <div className="rounded-2xl w-full h-1/4  flex flex-row space-x-5">
-                    {/* Double Section personality and badges */}
-
-                    <div className="h-full w-4/12 rounded-2xl space-y-3 ">
-                        <BadgesComponent />
-                        <PersonalityComponent />
-                    </div>
-
-                    <ProjectsComponent />
-                    <SkillsComponent />
-
-                </div>
-
-
-            </div>
-
-           
-
-            {/************** For Large and Medium Screens *************/}
-            <div className="hidden max-xl:block max-xl:overflow-visible  max-2xl:overflow-hidden w-screen bg-[#F8F3EB] h-screen max-xl:h-full max-xl:pb-14  px-10 space-y-8">
-
-                <div className="rounded-2xl w-full h-1/5 flex space-x-5 flex-row ">
-                    <ProfilePicComponent />
-                    <ExamsComponent />
-                </div>
-
-                <div className="h-1/5 w-full flex flex-row space-x-5 ">
-                    <CertificationsComponent />
-                    <OrganizationsComponent />
-                </div>
-
-                <div className="rounded-2xl w-full h-1/5  flex flex-row space-x-5">
-                    <div className=" w-4/12 max-xl:w-6/12 rounded-2xl space-y-3 ">
-                        <BadgesComponent />
-                        <PersonalityComponent />
-                    </div>
-                    <SkillsComponent />
-                </div>
-
-                <div className="rounded-2xl w-full h-1/5 flex flex-row space-x-5">
-                    <ExperienceComponent />
-                    <LanguagesComponent />
-                </div>
-                {/* Bottom Section */}
-
-
-                <div className="h-1/5 ">
-                    <ProjectsComponent />
-                </div>
-
-            </div>
-
-
-            {/* For Small and Extra Small  Screens */}
-            <div className="hidden  max-md:block max-2xl:overflow-hidden w-screen bg-[#F8F3EB] h-screen  px-10 space-y-8">
-                {/* Top Section */}
-                <div className="rounded-2xl w-full h-1/4  flex space-x-5 flex-row ">
-                    <ProfilePicComponent />
-                    <ExamsComponent />
-                    <OrganizationsComponent />
-                </div>
-                {/* Middle Section */}
-                <div className="rounded-2xl w-full h-1/4 flex flex-row space-x-5">
+                <div className="px-8 py-2 flex flex-row gap-x-5 ">
                     <CertificationsComponent />
                     <ExperienceComponent />
                     <LanguagesComponent />
-
-
                 </div>
-                {/* Bottom Section */}
-                <div className="rounded-2xl w-full h-1/4  flex flex-row space-x-5">
-                    {/* Double Section personality and badges */}
 
-                    <div className="h-full w-4/12 rounded-2xl space-y-3 ">
+                <div className="px-8 pt-2  flex flex-row gap-x-5 ">
+                    <div className="flex flex-col space-y-3  w-4/12">
                         <BadgesComponent />
                         <PersonalityComponent />
                     </div>
-
                     <ProjectsComponent />
                     <SkillsComponent />
-
                 </div>
 
 
             </div>
 
 
-
-        </>
+        </div>
     );
 }
 

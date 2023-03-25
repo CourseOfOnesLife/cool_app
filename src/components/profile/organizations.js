@@ -2,10 +2,10 @@ import organizations from '../../data/organizations.json';
 
 const OrganizationsComponent = () => {
     return (
-        <div className="bg-white  h-full max-xl:w-6/12 w-5/12 rounded-2xl  border-2">
+        <div className="bg-white  h-64 w-4/12 rounded-2xl  border-2">
             <p className="text-xl font-semibold text-[#582270] mt-3 ml-4">Organizasyonlar</p>
             <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
-            <div className="p-4 w-full h-full flex-row pb-14 space-y-3">
+            <div className="relative p-4 w-full h-fit flex-col justify-center  flex space-y-3">
                 {organizations.slice(0, 3).map((organization) => (
                     <a key={organization.organization_id} href={organization.organization_url} className="w-full h-10 bg-[#582270] rounded-2xl flex flex-row ">
                         <p className="text-white font-semibold pl-5 flex items-center w-full h-full">{organization.organization_name} </p>
