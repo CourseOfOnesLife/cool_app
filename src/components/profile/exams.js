@@ -4,7 +4,7 @@ import Exams from "../../data/exams.json";
 
 const ExamsComponent = ( ) => {
     return ( 
-        <div className="bg-white h-64 w-6/12 rounded-2xl  border-2">
+        <div className="bg-white h-64 w-6/12 max-xl:w-9/12 rounded-2xl  border-2">
 
         <div>
             <p className="text-xl font-semibold text-[#335708] mt-3 ml-4">Geçtiği Sınavlar</p>
