@@ -14,7 +14,7 @@ const Profile = () => {
     return (
         <div className="overflow-hidden  bg-[#F8F3EB] 
          z-10 top-0 grid grid-rows-16 grid-cols-16 h-full pb-5 w-full">
-            
+
             <div className="col-start-1 col-end-17 row-start-1 row-end-17 h-full flex flex-col">
                 {/* For X- Large Screens like Macbook fullscreen */}
                 <div className="max-xl:hidden ">
@@ -60,15 +60,15 @@ const Profile = () => {
                     </div>
                     <div className="px-8 py-2 flex flex-row gap-x-5 ">
 
-                        
+
                         <SkillsComponent />
                         <LanguagesComponent />
                     </div>
 
 
                     <div className="px-8 pt-2  flex flex-row gap-x-5">
-                    <ExperienceComponent />
-                        
+                        <ExperienceComponent />
+
                     </div>
                 </div>
 
