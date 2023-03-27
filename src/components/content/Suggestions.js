@@ -13,7 +13,7 @@ const Suggestions = () => {
             <div className="flex max-md:flex-col flex-row max-md:space-x-0 space-x-6 max-md:space-y-3 h-full items-center px-4 pb-6">
                 {/* First element of array with cool logo */}
                 <div className="bg-[#335708] max-lg:text-[1.6vw]  h-full w-full rounded-2xl flex items-start max-md:text-[1.1rem]  max-sm:text-[1rem]  max-xl:text-[1.1rem] text-[1.1rem] text-start max-sm:pl-4 pl-5 font-semibold text-[#86EE03] ">
-                    <div className="absolute pt-3  max-sm:max-w-[10rem] max-md:max-w-[12rem] max-lg:max-w-[12rem] max-xl:max-w-[14rem] max-w-[13rem]">
+                    <div className="absolute pt-3  max-sm:max-w-[15rem] max-md:max-w-[250px] max-lg:max-w-[12rem] max-xl:max-w-[14rem] max-w-[13rem]">
                         {FirstElementofData.syntax}
                     </div>
                     <div className=" w-full p-0 flex justify-end items-end h-full">
