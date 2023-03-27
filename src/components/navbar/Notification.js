@@ -71,7 +71,7 @@ const Notification = () => {
                                 )}
                             </div>
                             <div className="z-50 w-full pt-2 pr-4 pb-1">
-                                <div className="text-gray-600 text-[0.85rem] text-start leading-tight h-14">
+                                <div className="text-gray-600 text-[0.8rem] text-start leading-tight h-14">
                                     {/* Burada bildirimin content tipine göre filtreleme yaptıktan sonra gereken yerlerden veri çekme işlemi gerçekleşiyor */}
 
 

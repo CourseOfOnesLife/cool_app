@@ -11,10 +11,10 @@ const Certifications = () => {
                 {CertificationsData.slice(0,2).map((certification,index) => (
                     <div key={index} className="h-16 w-full  rounded-xl flex flex-row space-x-3">
                         <div className="w-4/6 h-14 bg-[#582270] rounded-2xl ">
-                            <p className="text-white text-md font-medium pl-3 flex items-center w-full h-full">{certification.certification_name}</p>
+                            <p className="text-white text-md font-medium pl-3 max-lg:font-semibold flex items-center w-full h-full">{certification.certification_name}</p>
                         </div>
                         <div className="w-2/6 h-14 bg-[#582270] rounded-2xl ">
-                            <p className="text-white text-md text-center justify-center font-medium flex items-center w-full h-full">{certification.certification_date}</p>
+                            <p className="text-white text-md text-center justify-center max-lg:font-semibold font-medium flex items-center w-full h-full">{certification.certification_date}</p>
                         </div>
 
                     </div>
