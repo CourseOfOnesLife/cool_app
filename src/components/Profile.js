@@ -41,7 +41,7 @@ const Profile = () => {
 
 
                 {/* For  Medium Screens like 4:3 Desktop screens and Most Wide Tablets*/}
-                <div className="max-xl:block hidden ">
+                <div className="max-sm:hidden max-xl:block hidden ">
                     <div className="px-8 py-2 flex flex-row gap-x-5 ">
                         <ProfilePicComponent />
                         <ExamsComponent />
@@ -74,10 +74,44 @@ const Profile = () => {
                     </div>
                 </div>
 
-            </div>
+
+                <div className="hidden max-sm:block p-7 space-y-4">
+               
+               <div className="flex flex-row space-x-4">
+                <ProfilePicComponent />
+                <OrganizationsComponent />
+                </div>
+
+                <ExamsComponent />
+
+
+                <CertificationsComponent />
+               
+
+
+
+                <BadgesComponent />
+                <PersonalityComponent />
+
+                <ProjectsComponent />
+
+
+
+                <SkillsComponent />
+                <LanguagesComponent />
+
+
+
+                <ExperienceComponent />
+                </div>
+
+          
 
 
         </div>
+
+
+        </div >
     );
 }
 

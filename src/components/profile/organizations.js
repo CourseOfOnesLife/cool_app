@@ -2,7 +2,7 @@ import organizations from '../../data/organizations.json';
 
 const OrganizationsComponent = () => {
     return (
-        <div className="bg-white  max-lg:h-56  h-64 w-4/12 max-xl:w-5/12 rounded-2xl max-lg:mb-4   border-2">
+        <div className="bg-white  max-lg:h-56 max-sm:w-7/12  h-64 w-4/12 max-xl:w-5/12 rounded-2xl max-lg:mb-4   border-2">
             <p className="text-xl font-semibold text-[#582270] mt-3 ml-4">Organizasyonlar</p>
             <div className="w-full h-0.5 bg-gray-200 mt-3"></div>
             <div className="relative p-4 w-full h-fit flex-col justify-center max-lg:space-y-2 flex space-y-3">

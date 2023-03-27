@@ -4,7 +4,7 @@ import ProjectsData from '../../data/projects.json'
 
 const Projects = () => {
     return (
-        <div className="bg-white  h-64 w-6/12 rounded-2xl max-xl:w-6/12 border-2">
+        <div className="bg-white  h-64 w-6/12 rounded-2xl max-sm:w-full max-xl:w-6/12 border-2">
             <p className="text-xl font-semibold text-[#335708] mt-3 ml-4">Projeler</p>
             <div className="w-full h-0.5  mt-3 bg-gray-200"></div>
             

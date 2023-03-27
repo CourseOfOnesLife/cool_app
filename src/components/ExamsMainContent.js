@@ -26,10 +26,10 @@ const ExamsMainContent = () => {
             <div className=' px-1 flex flex-col max-md:items-center space-y-5'>
                 <div className='text-[#582270] font-semibold text-3xl max-md:text-center'>Sınavlar</div>
                
-                <div className='grid grid-rows-4 space grid-cols-5 max-xl:grid-cols-3  max-sm:grid-cols-1 max-md:grid-cols-2 gap-5 max-xl:gap-5 max-lg:gap-6 p-4 place-content-around'>
+                <div className='grid grid-rows-4 w-full space grid-cols-5 max-xl:grid-cols-3  max-sm:grid-cols-1 max-md:grid-cols-2 gap-5 max-xl:gap-5 max-lg:gap-6 p-4 place-content-around'>
                 {ExamsData.map((exam) => (
                     
-                        <div key={exam.id} className='right-0 h-full bg-[#F1EDE7] border-2 border-[#d6d3ce] rounded-2xl shadow-md max-sm:w-[15rem]  w-[15rem]'>
+                        <div key={exam.id} className='right-0 h-full bg-[#F1EDE7] border-2 border-[#d6d3ce] rounded-2xl shadow-md max-sm:w-[15rem]  max-lg:w-[12rem] w-[15rem]'>
                             <div className='text-start font-medium text-2xl max-w-[10rem] pb-3 pt-2 px-3 text-[#582270]'>
                                 {exam.syntax}
                             </div>
