@@ -75,40 +75,50 @@ const Profile = () => {
                 </div>
 
 
-                <div className="hidden max-sm:block p-7 space-y-4">
-               
-               <div className="flex flex-row space-x-4">
-                <ProfilePicComponent />
-                <OrganizationsComponent />
+
+
+                <div className="hidden max-sm:block max-[510px]:hidden p-7 space-y-4">
+
+                    <div className="flex flex-row space-x-4">
+                        <ProfilePicComponent />
+                        <OrganizationsComponent />
+                    </div>
+
+                    <ExamsComponent />
+                    <CertificationsComponent />
+                    <BadgesComponent />
+                    <PersonalityComponent />
+                    <ProjectsComponent />
+                    <SkillsComponent />
+                    <LanguagesComponent />
+                    <ExperienceComponent />
                 </div>
 
-                <ExamsComponent />
-
-
-                <CertificationsComponent />
-               
 
 
 
-                <BadgesComponent />
-                <PersonalityComponent />
+                <div className="hidden max-[510px]:block px-10 py-7 space-y-4">
 
-                <ProjectsComponent />
-
-
-
-                <SkillsComponent />
-                <LanguagesComponent />
-
-
-
-                <ExperienceComponent />
+                    <ProfilePicComponent />
+                    <ExamsComponent />
+                    <PersonalityComponent />
+                    <OrganizationsComponent />
+                    
+                    <CertificationsComponent />
+                    <ExperienceComponent />
+                    <BadgesComponent />
+                   
+                    <ProjectsComponent />
+                    <SkillsComponent />
+                    <LanguagesComponent />
+                    
                 </div>
 
-          
 
 
-        </div>
+
+
+            </div>
 
 
         </div >
