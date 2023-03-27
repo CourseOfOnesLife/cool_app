@@ -9,7 +9,7 @@ const Experience = () => {
             <div className="w-full h-full p-4 pb-[4.5rem] flex flex-row space-x-5">
                 {ExperienceData.map((experience,index) => (
                     <div  key={index} className="flex flex-col h-full w-full bg-[#335708] rounded-2xl">
-                        <p  className="text-white text-lg font-semibold pt-2 pl-3 max-w-[100px] pb-3">{experience.title}</p>
+                        <p  className="text-white  text-[1.2rem] max-xl:text-[1.2rem] max-xl:pb-8 max-xl:max-w-[120px] font-semibold pt-2 pl-3 max-w-[120px] pb-7">{experience.title}</p>
                         <div className="w-full h-0.5 bg-[#86EE03]" />
                         <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pt-2 pr-3">{experience.company}</div>
                         <div className="flex justify-end content-end text-[#86EE03] font-semibold text-sm italic  pt-0 pr-3">{experience.startDate}-{experience.endDate}</div>

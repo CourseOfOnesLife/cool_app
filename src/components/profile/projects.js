@@ -12,7 +12,7 @@ const Projects = () => {
                 {ProjectsData.map((project,index) => (
                 <div key={index} className="flex flex-col h-full w-full justify-around bg-[#335708] rounded-2xl">
                     <p className="text-white text-2xl font-semibold pt-2 pl-3 max-w-[100px] ">{project.name}</p>
-                    <div className="flex justify-end content-end text-[#86EE03] font-semibold text-xl  pb-2 pr-3">{project.date}</div>
+                    <div className="flex justify-end content-end text-[#86EE03] font-semibold text-3xl max-xl:text-2xl  pb-2 pr-3">{project.date}</div>
 
                 </div>
            
