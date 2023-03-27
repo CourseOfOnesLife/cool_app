@@ -8,7 +8,7 @@ const ExamsContent = () => {
 
 
             <div className="grid grid-flow-col max-md:grid-flow-dense max-md:grid-cols-2  gap-2  h-full items-center px-4 pb-6">
-                {window.innerWidth < 768 ? splittedData.map((item) => {
+                {window.innerWidth < 780 ? splittedData.map((item) => {
                     return (
                         <div key={item.id} className="even:bg-[#E8E8E8] bg-[#582270]  even:text-[#582270] h-full w-full rounded-2xl flex pl-4 pt-3 items-start max-lg:text-[1.1rem] max-sm:text-[0.9rem] max-md:text-[1.1rem] max-xl:text-[1.3vw] text-[2rem] text-start font-semibold text-[#E8E8E8] ">
                             <div className="max-w-[9rem] max-sm:max-w-[7rem] max-md:max-w-[9rem] max-lg:max-w-[8rem]">{item.syntax}</div>

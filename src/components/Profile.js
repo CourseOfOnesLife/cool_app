@@ -38,7 +38,9 @@ const Profile = () => {
                         <SkillsComponent />
                     </div>
                 </div>
-                {/* For Large Screens like Desktop screens */}
+
+
+                {/* For  Medium Screens like 4:3 Desktop screens and Most Wide Tablets*/}
                 <div className="max-xl:block hidden ">
                     <div className="px-8 py-2 flex flex-row gap-x-5 ">
                         <ProfilePicComponent />

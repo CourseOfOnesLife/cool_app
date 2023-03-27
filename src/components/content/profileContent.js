@@ -10,7 +10,7 @@ const profileContent = () => {
 
                 <div  className="grid grid-flow-col max-md:grid-flow-dense max-md:grid-cols-2  gap-2 h-full items-center px-4 pb-6">
                     {/* if window width is 720px then take data from splittedData */}
-                    {window.innerWidth < 768 ? splittedData.map((item) => {
+                    {window.innerWidth < 780 ? splittedData.map((item) => {
                         return (
                             <div key={item.id} className="bg-[#335708] odd:bg-[#E8E8E8] odd:text-[#335708]  h-full w-full rounded-2xl flex pl-4 pt-3 items-start max-lg:text-[1rem] max-sm:text-[0.8rem] max-md:text-[1rem]  max-xl:text-[1.15rem] text-[1rem] text-start font-semibold text-[#86EE03] ">
                                  <div className=" max-sm:max-w-[6rem] max-lg:max-w-[8rem]"> {item.syntax}</div>
